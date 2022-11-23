@@ -1,55 +1,113 @@
 <!-- Markup the content below with tags and attributes such that it can be styled in CSS-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- Link your CSS stylesheet -->
-    
-</head>
-<body>
-
-<!-- company name -->
-Fatuma Restaurant
-
-<!-- Navigation -->
-About
-Menu
-Catering
-Contact
-
-<!-- header -->
-About Fatuma Restaurant
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-<!-- content -->
-Pasta with Banana
-
-scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Rice with Banana
-
-scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-
-Catering
-
-Nullam quis odio sit amet arcu sagittis ullamcorper vel vel ex. Duis consectetur sit amet metus quis congue. Nullam vitae viverra quam, vel volutpat nisi. Phasellus id mi sit amet nibh rutrum luctus.
-
-Contact
-
-info@fatumarestaurant.com
-619-555-0144
-4209 Bobcat Drive
-San Diego, CA, 48219
-
-<!-- footer -->
-Fatuma Restaurant
-
-About
-Menu
-Catering
-Contact
-
-Copyright Fatuma Restaurant 2020
-      
-</body>
+  <head>
+    <!-- Link your CSS stylesheet -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!--let not the id's mistake you TEACHER they helped me connect beween the links -->
+    <header>
+      <h1>Fatuma Restaurant</h1>
+      <nav>
+        <ul>
+          <a href="#about"> About</a>
+        </ul>
+        <ul>
+          <a href="#menue">menue</a>
+        </ul>
+        <ul>
+          <a href="#catering">Catering</a>
+        </ul>
+        <ul>
+          <a href="#contact">Contact</a>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero-sec">
+      <article class="article">
+        <h1 class="hero-h1">TASTE THE DIFFRENCE</h1>
+        <h4 class="hero-txt">LOCAL. FRESH AND DELICIOUS</h4>
+      </article>
+    </section>
+    <section class="main-txt">
+      <h1 class="description-title" id="about">About Fatuma Restaurant</h1>
+      <main>
+        <p class="main-p">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+      </main>
+    </section>
+    <section class="choices" id="menue">
+      <article>
+        <h3 class="titles">Pasta with Banana</h3>
+        <p class="details">
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing
+        </p>
+      </article>
+      <article>
+        <h3 class="titles">Rice with Banana</h3>
+        <p class="details">
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing
+        </p>
+      </article>
+    </section>
+    <section class="roles">
+      <article>
+        <h4 class="titles" id="catering">Catering</h4>
+        <p class="details">
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing
+        </p>
+      </article>
+      <article>
+        <h4 class="titles" id="contact">Contact</h4>
+        <address class="details">
+          info@fatumarestaurant.com <br />
+          619-555-0144 <br />
+          4209 Bobcat Drive <br />
+          San Diego, CA, 48219
+        </address>
+      </article>
+    </section>
+    <footer>
+      <hgroup>
+        <h2 class="footerH2">Fatuma Restaurant</h2>
+        <div class="footerList">
+          <ul>
+            About
+          </ul>
+          <ul>
+            Menu
+          </ul>
+          <ul>
+            Catering
+          </ul>
+          <ul>
+            Contact
+          </ul>
+        </div>
+      </hgroup>
+      <p class="footerTXT" id="menue">Copyright Fatuma Restaurant 2020</p>
+    </footer>
+  </body>
 </html>
