@@ -1,5 +1,5 @@
 # Introduction to CSS
-
+I hosted this site on github pages to stretch goals https://abdisalam-abdulahi.github.io/Introduction-to-CSS/
 ## Introduction
 
 In this project you will be styling a single page with your knowledge of CSS. The website is a marketing page for a restaurant in San Diego, CA called Fatuma Restaurant.
@@ -46,4 +46,4 @@ The following goals should be started only when above tasks was finished. These 
 
 Follow these steps for completing your project.
 
-- [ ] Submit a pull request to merge <YourfirstName-YourlastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [ ] Submit a pull request to merge <YourfirstName-YourlastName> Branch into master (student
